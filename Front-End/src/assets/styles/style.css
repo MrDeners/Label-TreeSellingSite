@@ -12,4 +12,57 @@
 
     --light-text-color: #E8E8E8;
     --dark-text-color: #323232;
+
+
+    --very_small_text_size: 26px;
+    --small_text_size: 32px;
+    --medium_text_size: 36px;
+    --pre_big_text_size: 42px;
+    --big_text_size: 51px;
+    --ver_big_text_size: 56px;
 }
+
+@media (max-width: 1440px) {
+    :root {
+        --very_small_text_size: 23px;
+        --small_text_size: 28px;
+        --medium_text_size: 33px;
+        --pre_big_text_size: 38px;
+        --big_text_size: 48px;
+        --ver_big_text_size: 53px;
+    }
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --very_small_text_size: 20px;
+        --small_text_size: 25px;
+        --medium_text_size: 30px;
+        --pre_big_text_size: 35px;
+        --big_text_size: 45px;
+        --ver_big_text_size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --very_small_text_size: 18px;
+        --small_text_size: 23px;
+        --medium_text_size: 28px;
+        --pre_big_text_size: 33px;
+        --big_text_size: 43px;
+        --ver_big_text_size: 48px;
+    }
+}
+
+@media (max-width: 425px) {
+    :root {
+        --very_small_text_size: 16px;
+        --small_text_size: 21px;
+        --medium_text_size: 26px;
+        --pre_big_text_size: 31px;
+        --big_text_size: 41px;
+        --ver_big_text_size: 46px;
+    }
+}
+
