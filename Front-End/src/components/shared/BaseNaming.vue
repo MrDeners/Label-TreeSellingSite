@@ -9,18 +9,20 @@ import { defineProps } from 'vue'
 
 defineProps({
   label: String,
-  color: String
+  color: {type: String, default: '--very-light-wrapper-color'}
 });
 </script>
 
 <style scoped lang="sass">
 
 .wrapper
-  height: 100%
+  height: 12vh
   width: 100%
-  text-align: center
-  padding: 2vh
-  background-color: $dark-wrapper-color
+  display: flex
+  align-items: center
+  justify-content: center
+  //padding: 2vh
+  background-color: v-bind(color)
 
   h1
     @include text()

@@ -1,13 +1,13 @@
 <template lang="pug">
 .wrapper
   v-row
-    v-col
+    v-col(cols="12" sm="auto")
       BaseLogo(:image="logo")
-    v-col
+    v-col(cols="12" sm="auto")
       BaseIconText(:label="labelOne", :icon="iconOne")
-    v-col
+    v-col(cols="12" sm="auto")
       BaseIconText(:label="labelTwo", :icon="iconTwo")
-    v-col
+    v-col(cols="12" sm="auto")
       BaseIconText(:label="labelThree", :icon="iconThree")
 
 </template>
@@ -32,4 +32,6 @@ const props = defineProps({
 .wrapper
   width: 100%
   background-color: $dark-wrapper-color
+
+
 </style>

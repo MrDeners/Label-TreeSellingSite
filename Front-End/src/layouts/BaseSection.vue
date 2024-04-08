@@ -1,5 +1,5 @@
 <template lang="pug">
-BaseSectionName(:label='label', :color="'light-wrapper-color'")
+BaseNaming(:label='label', color='--5c805442-color')
 v-container.section-wrapper(fluid)
   component(:is='widget', :cards = 'cards', :isChanged='true')
 
@@ -7,7 +7,7 @@ v-container.section-wrapper(fluid)
 </template>
 
 <script setup lang="ts">
-import BaseSectionName from "../components/shared/BaseSectionName.vue";
+import BaseNaming from "../components/shared/BaseNaming.vue";
 
 defineProps({
   label: String,
@@ -35,6 +35,8 @@ cards.push({id: 9, title: "World", image: ""});
 
 <style scoped lang="sass">
 .section-wrapper
+  padding-top: 0
+  padding-bottom: 0
   width: 95%
   background-color: $dark-wrapper-color
 </style>

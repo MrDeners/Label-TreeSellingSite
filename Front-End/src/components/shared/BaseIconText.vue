@@ -1,5 +1,5 @@
 <template lang="pug">
-v-container.wrapper
+.wrapper
   v-img(:src="icon" width="30" height="30" cover center no-repeat)
   .text {{ label }}
 </template>
@@ -13,6 +13,13 @@ const props = defineProps({
 
 <style scoped lang="sass">
 .wrapper
+  display: flex
+  justify-content: center
+  align-items: center
   .text
     @include text(var(--small_text_size))
+
+@media (max-width: 600px)
+.wrapper
+  margin: 0
 </style>
