@@ -3,16 +3,18 @@ BaseHeader(label-one="+375 29 123-45-67", label-two="+375 29 123-45-67", label-t
 BaseSection(label="Пиломатериалы оптом", :widget="MainDescription")
 BaseSection(label="Услуги", :widget="BaseSellingCardsView")
 BaseSection(label="Инфо", :widget="Info")
+BaseSection(label="Инфо", :widget="QuestionsIterior")
 
 
 </template>
 
 <script setup lang="ts">
-import Info from "../../components/widgets/Info.vue";
-import MainDescription from "../../components/widgets/MainDescription.vue";
+import Info from "../../components/widgets/sectionIteriors/Info.vue";
+import MainDescription from "../../components/widgets/sectionIteriors/MainDescription.vue";
 import BaseSection from "../../layouts/BaseSection.vue";
 import BaseHeader from "../../layouts/BaseHeader.vue";
 import BaseSellingCardsView from "../../components/widgets/BaseSellingCardsView.vue";
+import QuestionsIterior from "../../components/widgets/sectionIteriors/QuestionsIterior.vue";
 </script>
 
 <style scoped lang="sass">
