@@ -1,5 +1,5 @@
 <template lang="pug">
-.wrapper
+v-container.wrapper
   v-row(wrap)
     v-col(cols="12" lg="8")
       .text {{ text }}
@@ -18,9 +18,9 @@ const image = 'https://smart-les.ru/obreznaja-doska_mini_02.jpg'
 
 <style scoped lang="sass">
 .wrapper
+  width: 100%
   background-color: $light-wrapper-color
   padding: 3vh 5vh
-  margin: 0 2vh
 
   .text
     text-align: center

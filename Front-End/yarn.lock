@@ -253,6 +253,13 @@
     "@volar/language-core" "2.1.6"
     path-browserify "^1.0.1"
 
+"@vue-leaflet/vue-leaflet@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@vue-leaflet/vue-leaflet/-/vue-leaflet-0.10.1.tgz#17330515629d500ac113009a49f8cf98d140e8cc"
+  integrity sha512-RNEDk8TbnwrJl8ujdbKgZRFygLCxd0aBcWLQ05q/pGv4+d0jamE3KXQgQBqGAteE1mbQsk3xoNcqqUgaIGfWVg==
+  dependencies:
+    vue "^3.2.25"
+
 "@vue/compiler-core@3.4.21":
   version "3.4.21"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.4.21.tgz#868b7085378fc24e58c9aed14c8d62110a62be1a"
@@ -349,6 +356,11 @@
   version "3.4.21"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.21.tgz#de526a9059d0a599f0b429af7037cd0c3ed7d5a1"
   integrity sha512-PuJe7vDIi6VYSinuEbUIQgMIRZGgM8e4R+G+/dQTk0X1NEdvgvvgv7m+rfmDH1gZzyA1OjjoWskvHlfRNfQf3g==
+
+"@yandex/ymaps3-types@>=0.0.22":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@yandex/ymaps3-types/-/ymaps3-types-0.0.23.tgz#df6e587694c0c55553fa4a76baa8ec0d8219733d"
+  integrity sha512-xwjMNSpPth+VfySvkxHA0Rgj+G61DAvQ2n555lFDo4mMg3rXBCXCrma/D1DUNliMftIgswPGBJxt6Wzc9uEh5Q==
 
 acorn@^7.1.1:
   version "7.4.1"
@@ -1068,7 +1080,14 @@ vue-tsc@^2.0.6:
     "@vue/language-core" "2.0.7"
     semver "^7.5.4"
 
-vue@^3.4.21:
+vue-yandex-maps@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/vue-yandex-maps/-/vue-yandex-maps-2.1.1.tgz#3ace4fae60b86892c3e9d616f5a0aef19a52ed73"
+  integrity sha512-vdFR+WboK1v3izVAXC5M7HY05DKcYM08w5T92Owf3FyT1yyOEJ+rC3K4OTpqcSoNsnW9dF+aBCafWK1gKV/f9w==
+  dependencies:
+    "@yandex/ymaps3-types" ">=0.0.22"
+
+vue@^3.2.25, vue@^3.4.21:
   version "3.4.21"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.21.tgz#69ec30e267d358ee3a0ce16612ba89e00aaeb731"
   integrity sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==

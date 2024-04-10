@@ -13,7 +13,7 @@ v-container.card-wrapper
 </template>
 
 <script setup lang="ts">
-import BaseButton from "../general/BaseButton.vue";
+import BaseButton from "../../general/BaseButton.vue";
 
 const props = defineProps({
   title: {type: String, default: 'Остались вопросы?'},
@@ -26,8 +26,8 @@ const props = defineProps({
 <style scoped lang="sass">
 .card-wrapper
   width: 70%
-  background-color: var(--main-color)
-  padding: 2vh
+  background-color: var(--dark-wrapper-color)
+  padding: 3vh 5vh
 
   .title
     @include text(var(--pre_big_text_size), var(--accent-color))

@@ -18,8 +18,7 @@ const props = defineProps({
   display: grid
   justify-content: center
   align-items: center
-  grid-gap: 0
-  background-color: var(--main-color)
+  background-color: var(--dark-wrapper-color)
   padding: 2vh
   text-align: center
 

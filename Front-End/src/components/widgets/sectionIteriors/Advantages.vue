@@ -10,7 +10,7 @@ v-row.justify-space-around
 
 <script setup lang="ts">
 
-import BaseCard from "../../shared/advantagesSection/BaseCard.vue";
+import BaseCard from "../../shared/sections/advantagesSection/BaseCard.vue";
 </script>
 
 <style scoped lang="sass">

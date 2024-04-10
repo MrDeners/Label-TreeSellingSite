@@ -1,5 +1,5 @@
 <template lang="pug">
-.main-grid
+v-container.main-grid
   v-img.img(:src="image" center cover no-repeat height="400")
   .wrapper
     .text {{ Description }}

@@ -1,24 +1,20 @@
 <template lang="pug">
-.card-wrapper
-  v-img(:src="img" cover center no-repeat max-width="20vh" )
+.address-wrapper
   .title {{ title }}
 </template>
 
 <script setup lang="ts">
 const props = defineProps({
   title: {type: String, required: true},
-  img: {type: String, default: ""},
 })
 </script>
 
 <style scoped lang="sass">
-.card-wrapper
-  display: grid
-  justify-content: center
-  align-items: baseline
+
+.address-wrapper
+  padding: 2vh 3vh
   background-color: var(--light-wrapper-color)
-  padding: 2vh
 
   .title
-    @include text(var(--pre_big_text_size))
+    @include text(var(--medium_text_size), var(--accent-color))
 </style>

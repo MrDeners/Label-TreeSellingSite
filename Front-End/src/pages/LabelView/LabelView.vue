@@ -3,8 +3,9 @@ BaseHeader(label-one="+375 29 123-45-67", label-two="+375 29 123-45-67", label-t
 BaseSection(label="Пиломатериалы оптом", :widget="MainDescription")
 BaseSection(label="Услуги", :widget="BaseSellingCardsView")
 BaseSection(label="Инфо", :widget="Info")
-BaseSection(label="Инфо", :widget="QuestionsIterior")
-BaseSection(label="Инфо", :widget="Advantages")
+BaseSection(label="Частые вопросы", :widget="QuestionsIterior")
+BaseSection(label="Наши преимущества", :widget="Advantages")
+BaseSection(label="Мы на карте", :widget="Map")
 
 
 </template>
@@ -17,6 +18,7 @@ import BaseHeader from "../../layouts/BaseHeader.vue";
 import BaseSellingCardsView from "../../components/widgets/BaseSellingCardsView.vue";
 import QuestionsIterior from "../../components/widgets/sectionIteriors/QuestionsIterior.vue";
 import Advantages from "../../components/widgets/sectionIteriors/Advantages.vue";
+import Map from "../../components/widgets/sectionIteriors/Map.vue";
 </script>
 
 <style scoped lang="sass">

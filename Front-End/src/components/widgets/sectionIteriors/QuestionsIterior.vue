@@ -1,5 +1,5 @@
 <template lang="pug">
-.wrapper
+v-container.wrapper
   v-row.justify-start
     BaseInformationField(:title="firstTitle", :text="firstText")
   v-row.justify-end
@@ -10,8 +10,8 @@
 
 <script setup lang="ts">
 
-import BaseInformationField from "../../shared/questionsSection/BaseInformationField.vue";
-import ButtonInformationField from "../../shared/questionsSection/ButtonInformationField.vue";
+import BaseInformationField from "../../shared/sections/questionsSection/BaseInformationField.vue";
+import ButtonInformationField from "../../shared/sections/questionsSection/ButtonInformationField.vue";
 
 const firstTitle: String = 'Как заказать пиломатериалы оптом?';
 const firstText: String = 'Своим клиентам мы предлагаем купить оптом пиломатериалы различных сортов  древесины. Вы можете заказать материалы как стандартных, так и  нестандартных размеров в зависимости от ваших нужд. Доставку мы  осуществляем посредством услуг транспортных компаний, также вы можете  самостоятельно забрать свой заказ. Стоимость доставки будет зависеть от  объема товара и расстояния, на которое его нужно транспортировать. Мы  используем многопильное и углопильное оборудование WoodVER.';
@@ -23,5 +23,6 @@ const secondText: String = 'Наша компания закупает широ�
 .wrapper
   display: grid
   grid-gap: 5vh
-  padding: 5vh 0
+  padding: 5vh 1.3vh
+  background-color: $light-wrapper-color
 </style>
