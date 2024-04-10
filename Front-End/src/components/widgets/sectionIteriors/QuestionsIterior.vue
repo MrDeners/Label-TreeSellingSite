@@ -23,4 +23,5 @@ const secondText: String = 'Наша компания закупает широ�
 .wrapper
   display: grid
   grid-gap: 5vh
+  padding: 5vh 0
 </style>

@@ -4,6 +4,7 @@ BaseSection(label="Пиломатериалы оптом", :widget="MainDescript
 BaseSection(label="Услуги", :widget="BaseSellingCardsView")
 BaseSection(label="Инфо", :widget="Info")
 BaseSection(label="Инфо", :widget="QuestionsIterior")
+BaseSection(label="Инфо", :widget="Advantages")
 
 
 </template>
@@ -15,6 +16,7 @@ import BaseSection from "../../layouts/BaseSection.vue";
 import BaseHeader from "../../layouts/BaseHeader.vue";
 import BaseSellingCardsView from "../../components/widgets/BaseSellingCardsView.vue";
 import QuestionsIterior from "../../components/widgets/sectionIteriors/QuestionsIterior.vue";
+import Advantages from "../../components/widgets/sectionIteriors/Advantages.vue";
 </script>
 
 <style scoped lang="sass">
